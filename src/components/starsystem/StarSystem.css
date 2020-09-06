@@ -1,0 +1,19 @@
+.star-system{
+    width: 100vw;
+    height: 100vh;
+}
+.planet{
+    position: absolute;
+    z-index: 1001;
+    max-width: 30px;
+    max-height: 30px;
+}
+.sun{
+    z-index: 1000;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50px, -50px);
+}
