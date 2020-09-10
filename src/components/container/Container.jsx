@@ -7,7 +7,7 @@ function Container() {
     const [turnsCounter, setTurnsCounter] = useState(0)
   return (
     <div>
-      <StarSystem/>
+      <StarSystem turnsCounter={turnsCounter}/>
       <NextTurn turnsCounter={turnsCounter} onNextTurn={()=>{
           setTurnsCounter(turnsCounter + 1)
       }}/>

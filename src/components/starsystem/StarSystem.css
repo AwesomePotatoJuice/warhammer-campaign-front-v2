@@ -17,3 +17,6 @@
     height: 100px;
     transform: translate(-50px, -50px);
 }
+.showProjection{
+    display: block !important;
+}
