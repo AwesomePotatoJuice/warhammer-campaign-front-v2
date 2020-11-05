@@ -2,23 +2,44 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #811dff;
     z-index: 1002;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 191px;
+    width: 150px;
+    background-image: url('background-next-turn.jpg');
+    max-height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:0px 0px 35px 35px ;
+    border: 3px black solid;
+}
+.next-turn span{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    text-shadow: -2px -2px 0px #000;
+}
+.next-turn button {
+    background-color:  #53072C;
+    opacity: 0.9;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
 }
 .flex-row{
 
 }
 .hide{
-    transform: translate(0, -43px);
-    transition-duration: 0.5s;
+    transform: translate(0, -130px);
+    transition-duration: 0.8s;
 }
 .show{
     transform: translate(0, 0);
-    transition-duration: 0.5s;
+    transition-duration: 0.8s;
 }
 .hide-show-button{
     display: flex;
@@ -26,9 +47,20 @@
     align-items: center;
     width: 100px;
     border-style: solid;
-    border-color: black;
+    border-color: whitesmoke;
     border-width: 1px;
     margin-bottom: 3px;
     margin-top: 3px;
     padding: 1px;
+    background-color: snow;
+}
+.opacity{
+    opacity: 0.3;
+}
+.icon-reverse{
+    transform: rotate(180deg);
+    transition-duration: 0.8s;
+}
+.icon{
+    transition-duration: 0.8s;
 }
